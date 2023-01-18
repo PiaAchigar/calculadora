@@ -10,13 +10,13 @@ document.querySelector("#app").innerHTML = `
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
-    <h1>Hello Vite!</h1>
+    <h1>Calculadora</h1>
+    <input type="text" id="numero1" placeholder="inserte numero 1">
+    <input type="text" id="numero2" placeholder="inserte numero 2">
+    <input type="text" id="operacion" placeholder="inserte la operación">
     <div class="card">
-      <button id="counter" type="button"></button>
+      <button id="btn" type="button">Calcular</button>
     </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
   </div>
 `;
 
