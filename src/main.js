@@ -2,7 +2,7 @@ import "./style.css";
 import javascriptLogo from "../src/fotos/javascript.svg";
 /*import viteLogo from "../src/fotos/viteLogo"; no funciona*/
 import viteLogo from "../src/fotos/vite.svg";
-import { setupCounter } from "../src/funciones/counter";
+// import { setupCounter } from "../src/funciones/counter";
 import { showResult } from "./funciones/ShowResult";
 
 document.querySelector("#app").innerHTML = `
@@ -15,10 +15,16 @@ document.querySelector("#app").innerHTML = `
     </a>
     <h1>Calculadora</h1>
     <input type="text" id="numero1" placeholder="inserte numero 1">
+    <select id="operacion">
+      <option value="suma">+</option>
+      <option value="resta">-</option>
+      <option value="division">/</option>
+      <option value="multip">*</option>
+    </select>
     <input type="text" id="numero2" placeholder="inserte numero 2">
-    <input type="text" id="operacion" placeholder="inserte la operación">
     <div class="card">
       <button id="btn" type="button">Calcular</button>
+      <p id="showRes"></p>
     </div>
   </div>
 `;
