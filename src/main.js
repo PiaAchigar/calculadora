@@ -1,6 +1,7 @@
 import "./style.css";
-import javascriptLogo from "./javascript.svg";
-import { setupCounter } from "./counter.js";
+import javascriptLogo from "../src/fotos/javascript.svg";
+import { setupCounter } from "../src/funciones/counter";
+import { showResult } from "./funciones/ShowResult";
 
 document.querySelector("#app").innerHTML = `
   <div>

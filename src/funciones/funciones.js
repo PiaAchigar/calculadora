@@ -7,6 +7,6 @@ export function resta(x, y) {
 export function multiplicacion(x, y) {
   return x * y;
 }
-export function divicion(x, y) {
+export function division(x, y) {
   return x / y;
 }

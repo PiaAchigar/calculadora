@@ -1,5 +1,5 @@
 {
-  "name": "-calculadora",
+  "name": "calculadora",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,9 +10,11 @@
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "@types/node": "^18.11.18",
     "vite": "^4.0.0"
   },
   "dependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "vite-plugin-multi-pages": "^0.0.10"
   }
 }
