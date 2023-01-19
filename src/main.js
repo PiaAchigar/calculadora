@@ -1,13 +1,13 @@
 import "./style.css";
 import javascriptLogo from "../src/fotos/javascript.svg";
-import viteLogo from "../src/fotos/vite.svg";
+import viteLogo from "./fotos/viteLogo.png";
 import { setupCounter } from "../src/funciones/counter";
 import { showResult } from "./funciones/ShowResult";
 
 document.querySelector("#app").innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
-      <img src="./${viteLogo}" class="logo" alt="Vite Logo" />
+      <img src="${viteLogo}" class="logo" alt="Vite Logo" />
     </a>
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
