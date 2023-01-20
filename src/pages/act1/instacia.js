@@ -1,10 +1,10 @@
 console.log("Actividad 1");
-import "../../../style.css";
-import javascriptLogo from "../../../fotos/javascript.svg";
+import "../../style.css";
+import javascriptLogo from "../../../javascript.svg";
 /*import viteLogo from "../src/fotos/viteLogo"; no funciona*/
-import viteLogo from "../../../fotos/vite.svg";
+import viteLogo from "../../../vite.svg";
 // import { setupCounter } from "../src/funciones/counter";
-import { showResult } from "../../../funciones/ShowResult";
+import { showResult } from "../../funciones/ShowResult";
 
 document.querySelector("#ancla").innerHTML = `
   <div>

@@ -7,6 +7,7 @@ root:"src"
 outDir:"../dist"
 */
 export default defineConfig({
+  base: "/calculadora/",
   root,
   build: {
     outDir,
@@ -14,7 +15,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(root, "index.html"),
-        pages: resolve(root,"public","pages","act1", "act1.html"),
+        pages: resolve(root, "pages", "act1", "act1.html"),
       },
     },
   },

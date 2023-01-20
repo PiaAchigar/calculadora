@@ -1,7 +1,7 @@
 import "./style.css";
-import javascriptLogo from "../src/fotos/javascript.svg";
+import javascriptLogo from "../javascript.svg";
 /*import viteLogo from "../src/fotos/viteLogo"; no funciona*/
-import viteLogo from "../src/fotos/vite.svg";
+import viteLogo from "../vite.svg";
 // import { setupCounter } from "../src/funciones/counter";
 import { showResult } from "./funciones/ShowResult";
 
