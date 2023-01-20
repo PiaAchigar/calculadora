@@ -2,7 +2,10 @@ import { defineConfig } from "vite";
 import { resolve } from "path";
 const root = resolve(__dirname, "src");
 const outDir = resolve(__dirname, "dist");
-/*saco la base: */
+/*saco la base
+root:"src"
+outDir:"../dist"
+*/
 export default defineConfig({
   root,
   build: {
@@ -11,7 +14,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(root, "index.html"),
-        pages: resolve(root, "pages","act1", "act1.html"),
+        pages: resolve(root,"public","pages","act1", "act1.html"),
       },
     },
   },
