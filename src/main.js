@@ -13,7 +13,7 @@ document.querySelector("#app").innerHTML = `
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
-    <h1>Calculadora  x 2 </h1>
+    <h1>Calculadora  x 2 x3 </h1>
     <input type="text" id="numero1" placeholder="inserte numero 1">
     <select id="operacion">
       <option value="suma">+</option>

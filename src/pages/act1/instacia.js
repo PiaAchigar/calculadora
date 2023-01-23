@@ -1,4 +1,4 @@
-console.log("Actividad 1");
+console.log("Actividad 1 - modificada x3");
 import "../../style.css";
 import javascriptLogo from "../../../javascript.svg";
 /*import viteLogo from "../src/fotos/viteLogo"; no funciona*/
